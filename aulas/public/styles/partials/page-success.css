@@ -1,0 +1,69 @@
+.page-success {
+    background-color: var(--color-primary);
+    position: relative;
+}
+
+.page-success header img{
+    width: 100%;
+}
+
+.page-success main {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.page-success main #container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-success main #container1 img {
+    margin-bottom: 3.6rem;
+}
+
+.page-success main #container1 #title {
+    font: 700 6rem Archivo;
+    color: var(--color-title-in-primary);
+    margin-top: 3.6rem auto;
+}
+
+.page-success main #container1 .message {
+    font: 400 1.6rem Poppins;
+    color: var(--color-title-in-primary);
+    margin-top: 1.8rem;
+    line-height: 1.6rem;
+}
+
+.page-success main #container1 a {
+    width: 30rem;
+    height: 6.4rem;
+    border-radius: 0.8rem;
+    font: 700 2.4rem Archivo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background 0.2s;
+    background-color: var(--color-secondary);
+    color: var(--color-button-text);
+    margin-top: 8rem;
+}
+
+.page-success main #container1 a:hover {
+    background-color: var(--color-secondary-dark);
+}
+
+@media (max-width: 500px) {
+    .page-success main #container1 #title {
+        font-size: 2.8rem
+    }
+
+    .page-success main #container1 .message {
+        margin: 1.8rem;
+    }
+}
